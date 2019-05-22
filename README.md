@@ -14,9 +14,16 @@ dependencies {
 	        implementation 'com.github.kenxiong0113:BaseLibrary:1.0.0'
 	}
 
-1. 初始化sdk
+## 	Step 3.初始化
+public class MyApplication extends Application {
+    @Override
+    public void onCreate() {
+        super.onCreate();
 //        初始化base_utils_class
         BaseLibrary.initBaseLibrary(this);
-//        设置应用图标，通知栏用到
+//        设置通知栏应用logo
         BaseLibrary.setAppIcon(R.mipmap.ic_launcher);
+
+    }
+}
 
