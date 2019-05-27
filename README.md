@@ -38,7 +38,8 @@ public class MyApplication extends Application {
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         ...
-        <item name="windowActionBar">false</item>
+      	<item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
     </style>
 ```
 
