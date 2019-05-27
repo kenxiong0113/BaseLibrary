@@ -2,7 +2,7 @@
 使用说明
 ====
 ## Step 1. Add the JitPack repository to your build file
-``` Java
+``` Gradle
 allprojects {
 		repositories {
 			...
@@ -11,13 +11,15 @@ allprojects {
 			}
 		}
 	}
-## 	Step 2. Add the dependency	
-
+```
+## Step 2. Add the dependency	
+``` Gradle
 dependencies {
 	        implementation 'com.github.kenxiong0113:BaseLibrary:1.0.0'
 	}
-
-## 	Step 3.初始化
+```
+## Step 3.初始化
+``` Java
 public class MyApplication extends Application {
     @Override<
     public void onCreate() {
